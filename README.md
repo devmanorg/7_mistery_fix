@@ -1,6 +1,7 @@
 # Quadratic Equations Solver
 
-[TODO. There will be project description]
+This function will solve quadratic equations, taking a, b and c coefficients
+If a == 0 it is not quadratic equation, so it will return (None, None) as roots.
 
 # Project Goals
 

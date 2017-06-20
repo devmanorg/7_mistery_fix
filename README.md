@@ -9,8 +9,11 @@ For launching the script execute the next command:
 ```bash
 python quadratic_eqation.py 
 ```
-Script sugests to input coefficients: a, b, c. After that the script calсulates roots of Equation and displays it in the command line, e.g.
+Script suggests to input coefficients: a, b, c. After that the script calсulates roots of Equation and displays it in the command line, e.g.
 ```bash
+a=1
+b=2
+c=-3
 root1 = -3.000000
 root2 = 2.000000
 ```

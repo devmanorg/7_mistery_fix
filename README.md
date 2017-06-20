@@ -1,10 +1,14 @@
 # Quadratic Equations Solver
 
-[TODO. There will be project description]
+The script helps to solve Quadratic Equations.
 
 # How to Use
 
-[TODO]
+
+For launching the script execute the next command:
+python quadratic_eqation.py 
+
+Script sugests to input coefficients: a, b, c. After that the script calсulates roots of Equation and displays it in the command line.
 
 # How to Launch Tests
 

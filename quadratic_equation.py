@@ -1,8 +1,5 @@
 from math import sqrt
 
-
-
-
 def get_roots(a,b,c):
     discriminant = b ** 2 - 4 * a * c
 
@@ -22,9 +19,7 @@ if __name__ == '__main__':
     b = float(input('b = '))
     c = float(input('c = '))
     root1, root2 = get_roots(a, b, c)
-    #print("root1 =  %f ,  root2 = %f" % (root1, root2))
-    #print("root1 =  %f " %(root1))
-
+    
     if root1 is None:
         print("root1 =  None ")
     else:

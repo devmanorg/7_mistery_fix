@@ -4,19 +4,40 @@ The script helps to solve Quadratic Equations.
 
 # How to Use
 
+quadratic_eqation.py contains function get_roots(a,b,c) for calculating roots of Quadratic Equation with coefficients: a, b, c.
+You can import quadratic_eqation module into your script by:
+```bash
+import quadratic_eqation.py 
+```
+You can use the next example to calculating roots of Quadratic Equation in ypour script:
+```bash
+root1, root2 = get_roots(a, b, c)
+# a, b, c - coefficients of Quadratic Equation
+```
+Function returns 2 roots. If root/root couldn't be calcalated or not excist, function will return None.
 
-For launching the script execute the next command:
+Example of using:
 ```bash
-python quadratic_eqation.py 
+import quadratic_eqation.py 
+
+a = float(input('a = '))
+b = float(input('b = '))
+c = float(input('c = '))
+
+root1, root2 = quadratic_eqation.get_roots(a, b, c)
+
+if root1 is None:
+    print("root1 =  None ")
+else:
+    print("root1 =  %f " % (root1))
+
+if root2 is None:
+    print("root2 =  None " )
+else:
+    print("root2 =  %f " % (root2))
+
 ```
-Script suggests to input coefficients: a, b, c. After that the script calсulates roots of Equation and displays it in the command line, e.g.
-```bash
-a=1
-b=2
-c=-3
-root1 = -3.000000
-root2 = 2.000000
-```
+
 
 # How to Launch Tests
 

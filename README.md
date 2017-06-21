@@ -14,7 +14,7 @@ You can use the next example to calculating roots of Quadratic Equation in ypour
 root1, root2 = get_roots(a, b, c)
 # a, b, c - coefficients of Quadratic Equation
 ```
-Function returns 2 roots. If root/root couldn't be calcalated or not excist, function will return None.
+Function returns 2 roots. If root/roots couldn't be calcalated or not excist, function will return None.
 
 Example of using:
 ```bash
